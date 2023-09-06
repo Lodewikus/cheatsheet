@@ -67,7 +67,6 @@ pip3 install -r requirements.txt
 ## Reboot, shutdown
 sudo reboot
 sudo shutdown -h now
-exit
 
 ## CTRL-commands
 CTRL-L Clear terminal
