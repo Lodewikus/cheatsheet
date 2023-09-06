@@ -40,7 +40,7 @@
 - chown -R pi:pi venv (change ownership of a whole folder with subfolders)
 - chmod u+x pi copy_last_good.sh (make shell script executable)
 
-# Ensure serial port is accessible to lab user
+## Ensure serial port is accessible to lab user
 - sudo usermod -a -G dialout lab
 
 ## SSH and SCP
