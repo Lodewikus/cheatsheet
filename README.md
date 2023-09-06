@@ -1,26 +1,26 @@
 # cheatsheet with my Linux command line commands
-Git repo: https://github.com/Lodewikus/cheatsheet.git
+- Git repo: https://github.com/Lodewikus/cheatsheet.git
 
 ## Help
-tldr
-man
+- tldr
+- man
 
 ## Network utils
-curl
-ifconfig
-ip a
-ip route | grep default
-nmap 192.168.0.0/24
+- curl
+- ifconfig
+- ip a
+- ip route | grep default
+- nmap 192.168.0.0/24
 
 ## Git
-git add .
-git commit -m "Fixed split_loads_to_wh.py"
-git push
+- git add .
+- git commit -m "Fixed split_loads_to_wh.py"
+- git push
 
 ## Virtual environments
-python3 -m venv alch
+`python3 -m venv alch
 source ./alch/bin/activate
-deactivate
+deactivate'
 
 ## General
 ls (list directory)
