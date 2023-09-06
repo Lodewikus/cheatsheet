@@ -1,9 +1,12 @@
 # cheatsheet with my Linux command line commands
-curl
+Git repo: https://github.com/Lodewikus/cheatsheet.git
+
+## Help
 tldr
 man
 
 ## Network utils
+curl
 ifconfig
 ip a
 ip route | grep default
