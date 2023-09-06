@@ -18,9 +18,11 @@
 - git push
 
 ## Virtual environments
-`python3 -m venv alch
+`
+python3 -m venv alch
 source ./alch/bin/activate
-deactivate'
+deactivate
+`
 
 ## General
 ls (list directory)
