@@ -36,6 +36,7 @@ rm -R folder
 mkdir  
 pwd (print current directory)  
 echo $PATH  
+history  
 
 ## File permissions, ownership  
 sudo chown root:root run_serial_api.sh  
@@ -77,6 +78,6 @@ sudo shutdown -h now
 exit  
 
 ## CTRL-commands  
-CTRL-L Clear terminal  
-CTRL-R search for previous command  
-CTRL-U clear the current bash command line  
+CTRL-L (Clear terminal)  
+CTRL-R (search for previous command)  
+CTRL-U (clear the current bash command line)  
