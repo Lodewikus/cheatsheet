@@ -6,10 +6,8 @@
 - man
 
 ## Network utils
-`
 curl  
 ifconfig
-`
 - ip a
 - ip route | grep default
 - nmap 192.168.0.0/24
