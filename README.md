@@ -16,6 +16,8 @@ nmap 192.168.0.0/24
 git add .  
 git commit -m "Fixed split_loads_to_wh.py"  
 git push  
+git pull  
+git status  
 
 ## Virtual environments  
 python3 -m venv alch  
