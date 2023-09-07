@@ -7,7 +7,7 @@
 
 ## Network utils
 `
-curl
+curl<br>
 ifconfig
 `
 - ip a
