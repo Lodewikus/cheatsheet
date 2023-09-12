@@ -1,4 +1,4 @@
-# cheatsheet with my Linux command line commands  
+# Cheatsheet with my Linux command line commands  
 Git repo: https://github.com/Lodewikus/cheatsheet.git  
 
 ## Help  
