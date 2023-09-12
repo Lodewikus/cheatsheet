@@ -14,7 +14,7 @@ nmap 192.168.0.0/24
 
 ## Git  
 git add .  
-git commit -m "Fixed split_loads_to_wh.py"  
+git commit -m "Commit message"  
 git push  
 git pull  
 git status  
