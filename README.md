@@ -81,3 +81,7 @@ exit
 CTRL-L (Clear terminal)  
 CTRL-R (search for previous command)  
 CTRL-U (clear the current bash command line)  
+
+## Spinning up a temporary web server for file transfer, for example, a large ISO file
+navigate to the directory containing the ISO and run:
+`python3 -m http.server 8000`   
