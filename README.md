@@ -1,5 +1,10 @@
 # Cheatsheet with my Linux command line commands  
+sudo apt install git -y  
 Git repo: https://github.com/Lodewikus/cheatsheet.git  
+
+## Install pip and venv
+sudo apt install python3-pip -y  
+sudo apt-get install python3-venv -y  
 
 ## Help  
 tldr  
