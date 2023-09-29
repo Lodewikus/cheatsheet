@@ -6,6 +6,11 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 sudo apt install python3-pip -y  
 sudo apt-get install python3-venv -y  
 
+## Virtual environments  
+python3 -m venv env  
+source ./env/bin/activate  
+deactivate  
+
 ## Help  
 tldr  
 man  
@@ -39,11 +44,6 @@ git push
 git pull  
 git status  
 
-## Virtual environments  
-python3 -m venv alch  
-source ./alch/bin/activate  
-deactivate  
-
 ## General  
 ls (list directory)  
 ls -l (list - details)  
@@ -57,6 +57,11 @@ mkdir
 pwd (print current directory)  
 echo $PATH  
 history  
+
+## Search & Find
+grep
+fzf
+find (https://www.plesk.com/blog/various/find-files-in-linux-via-command-line/, https://www.freecodecamp.org/news/how-to-search-for-files-from-the-linux-command-line/)
 
 ## File permissions, ownership  
 sudo chown root:root run_serial_api.sh  
