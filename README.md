@@ -14,8 +14,23 @@ man
 curl  
 ifconfig  
 ip a  
-ip route | grep default  
+ip route | grep default (to get default gateway)  
 nmap 192.168.0.0/24  
+sudo ufw status (Firewall status)  
+sudo ufw allow 22/tcp (allow Port 22)  
+netstat -rn (sudo apt install net-tools)  
+nmcli dev show | grep 'IP4.DNS' (sudo apt  install network-manager)  
+
+## Network settings for Ubuntu Server
+cd /etc/netplan/ (edit the yaml file)
+sudo netplan generate && sudo netplan try
+
+## Services
+sudo systemctl status ssh (see if ssh service is running)  
+sudo service ssh status (same as above)  
+sudo systemctl enable ssh --now (enable ssh service)  
+sudo systemctl restart ssh (restart ssh service)  
+sudo service inetd restart (another way to restart a service)  
 
 ## Git  
 git add .  
@@ -47,6 +62,8 @@ history
 sudo chown root:root run_serial_api.sh  
 chown -R pi:pi venv (change ownership of a whole folder with subfolders)  
 chmod u+x pi copy_last_good.sh (make shell script executable)  
+chmod +x setup.sh  (same as above)  
+
 
 ## Ensure serial port is accessible to lab user  
 sudo usermod -a -G dialout lab  
