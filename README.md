@@ -113,10 +113,11 @@ CTRL-U (clear the current bash command line)
 alias vim="nvim" (create an alias for neovim)  
 
 To create a bash alias that can take a parameter, you can define a shell function in your .bashrc file.
-
-marktext() {
-    /home/wikus/Applications/marktext-x86_64_e94cf48168e949ee60b95bed54505f33.AppImage "$@"
+```
+marktext() {  
+    /home/wikus/Applications/marktext-x86_64_e94cf48168e949ee60b95bed54505f33.AppImage "$@"  
 }
+```
 
 After adding this function to your .bashrc, don't forget to apply the changes by running `source ~/.bashrc`
 
