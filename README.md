@@ -1,4 +1,4 @@
-# Cheatsheet with my Linux command line commands
+# Cheatsheet with my Linux terminal commands
 
 sudo apt install git -y  
 Git repo: https://github.com/Lodewikus/cheatsheet.git  
