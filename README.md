@@ -109,6 +109,17 @@ CTRL-L (Clear terminal)
 CTRL-R (search for previous command)  
 CTRL-U (clear the current bash command line)  
 
+## Add things to .bashrc
+alias vim="nvim" (create an alias for neovim)  
+
+To create a bash alias that can take a parameter, you can define a shell function in your .bashrc file.
+
+marktext() {
+    /home/wikus/Applications/marktext-x86_64_e94cf48168e949ee60b95bed54505f33.AppImage "$@"
+}
+
+After adding this function to your .bashrc, don't forget to apply the changes by running `source ~/.bashrc`
+
 ## Spinning up a temporary web server for file transfer, for example, a large ISO file
 navigate to the directory containing the ISO and run:  
 `python3 -m http.server 8000`   
