@@ -84,6 +84,10 @@ chmod +x setup.sh  (same as above)
 
 sudo usermod -a -G dialout lab  
 
+For Arduino IDE, to have serial port available it is necessary to remove brltty (braille)
+
+sudo apt-get remove brltty
+
 ## SSH and SCP
 
 csp sourcefile wikus@172.20.60.193:destinationfile  
@@ -146,3 +150,15 @@ After adding this function to your .bashrc, don't forget to apply the changes by
 
 navigate to the directory containing the ISO and run:  
 `python3 -m http.server 8000`   
+
+## ZeroTier
+
+One-line installation in Linux
+
+```
+curl -s https://install.zerotier.com | sudo bash
+
+sudo zerotier-cli join [NETWORKID]
+```
+
+zerotier-cli --help
