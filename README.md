@@ -1,6 +1,6 @@
 # Cheatsheet with my Linux terminal commands
 
-sudo apt install git -y  
+`sudo apt install git -y`
 Git repo: https://github.com/Lodewikus/cheatsheet.git  
 
 ## Install pip and venv
