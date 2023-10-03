@@ -33,7 +33,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 
 ## Network settings for Ubuntu Server
 
-`cd /etc/netplan/` (edit the yaml file)
+`cd /etc/netplan/` (edit the yaml file)  
 `sudo netplan generate && sudo netplan try`
 
 ## Services
@@ -50,7 +50,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 `git commit -m "Commit message"`  
 `git push`  
 `git pull`  
-`git status  
+`git status`  
 
 ## General
 
