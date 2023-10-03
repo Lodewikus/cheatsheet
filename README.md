@@ -23,7 +23,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 
 `curl`  
 `ifconfig`  
-`ip a  
+`ip a`  
 `ip route | grep default` (to get default gateway)  
 `nmap 192.168.0.0/24`  
 `sudo ufw status`  (Firewall status)  
