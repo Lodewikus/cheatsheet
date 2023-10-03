@@ -146,10 +146,3 @@ After adding this function to your .bashrc, don't forget to apply the changes by
 
 navigate to the directory containing the ISO and run:  
 `python3 -m http.server 8000`   
-
-  ## Github tokens
-Github access token  
-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  
-
-Github token (trinergy-systems)  
-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
