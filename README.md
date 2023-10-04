@@ -147,6 +147,7 @@ marktext() {
 After adding this function to your .bashrc, don't forget to apply the changes by running `source ~/.bashrc`
 
 ## Spinning up a temporary web server for file transfer, for example, a large ISO file
+
 Navigate to the directory containing the ISO and run:  
 `python3 -m http.server 8000`   
 
@@ -156,7 +157,9 @@ One-line installation in Linux
 
 ```
 curl -s https://install.zerotier.com | sudo bash
-sudo zerotier-cli join [NETWORKID]
+sudo zerotier-cli join <network ID>
 ```
 
-`zerotier-cli --help`
+`zerotier-cli -`
+`sudo zerotier-cli listnetworks`
+`sudo zerotier-cli leave <network ID>` You can leave and join to disconnect & reconnect
