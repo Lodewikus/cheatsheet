@@ -90,7 +90,7 @@ For Arduino IDE, to have serial port available it is necessary to remove brltty 
 
 ## SSH and SCP
 
-`csp sourcefile wikus@172.20.60.193:destinationfile`  
+`scp sourcefile wikus@172.20.60.193:destinationfile`  
 
 ## editors
 
