@@ -163,3 +163,13 @@ sudo zerotier-cli join <network ID>
 `zerotier-cli -`
 `sudo zerotier-cli listnetworks`
 `sudo zerotier-cli leave <network ID>` You can leave and join to disconnect & reconnect.
+
+## Linux Mint-specific
+
+Type special characters
+
+ê - right-alt + e, then > (right bracket)  
+
+é - right-alt + e, then ' (single quote)  
+
+ë - right-alt + e, then " (double quote)
