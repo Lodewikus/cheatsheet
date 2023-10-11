@@ -7,6 +7,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 
 `sudo apt install python3-pip -y`  
 `sudo apt-get install python3-venv -y`  
+`pip freeze`  
 
 ## Virtual environments
 
