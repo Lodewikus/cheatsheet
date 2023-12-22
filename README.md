@@ -93,6 +93,21 @@ For Arduino IDE, to have serial port available it is necessary to remove brltty 
 
 `scp sourcefile wikus@172.20.60.193:destinationfile`  
 
+## RSYNC
+
+`rsync -av source/ destination/` (copy all files and folders from source to dest)  
+a - archive: recurse directories and a lot more, v - verbose  
+
+`rsync -av --delete source/ destination/` (as above, but delete files from destination that are not in source)  
+`rsync -av --delete --dry-run source/ destination/` (as above, but dry run only)  
+`rsync zaP ~/code/my_project wikus@10.0.0.20:~/code/` (copy to a remote folder)  
+
+z - compress, a - archive, P - show progress  
+Omitting the trailing slash from the source means it copies the entire folder  
+
+The reverse also works:  
+`rsync zaP wikus@10.0.0.20:~/code/my_project/new_folder ~/code/my_project/`  
+
 ## editors
 
 `vim`  
@@ -101,9 +116,14 @@ For Arduino IDE, to have serial port available it is necessary to remove brltty 
 ## Process management
 
 `htop`  
+`btop`  
 `pkill gunicorn` (kill all processes for, e.g., gunicorn)  
 `sudo pkill -f "python3 rpi_alarm.py"` (kill a specific process)  
 `ps aux | grep network_check.sh` (search processes for a specific one by name)  
+`pgrep -f 'python3 file_watcher.py` (same as above)
+`pkill -f 'python3 file_watcher.py` (kill a process by name)
+`kill 1234` (kill a process by process ID)
+
 
 ## Raspberry Pi
 
