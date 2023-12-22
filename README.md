@@ -52,6 +52,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 `git push`  
 `git pull`  
 `git status`  
+`git checkout -- file.ext`  (discard the last change to file.ext)  
 
 ## General
 
@@ -124,7 +125,6 @@ The reverse also works:
 `pkill -f 'python3 file_watcher.py` (kill a process by name)
 `kill 1234` (kill a process by process ID)
 
-
 ## Raspberry Pi
 
 `raspi-config`  
@@ -189,8 +189,8 @@ sudo zerotier-cli join <network ID>
 
 Type special characters
 
-ê - right-alt + e, then > (right bracket)  
+ê: right-alt + e, then > (right bracket)  
 
-é - right-alt + e, then ' (single quote)  
+é: right-alt + e, then ' (single quote)  
 
-ë - right-alt + e, then " (double quote)
+ë: right-alt + e, then " (double quote)
