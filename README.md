@@ -204,6 +204,20 @@ sudo zerotier-cli join <network ID>
 `sudo zerotier-cli listnetworks`
 `sudo zerotier-cli leave <network ID>` You can leave and join to disconnect & reconnect.
 
+## VIM
+`cgn` Moves the cursor to the next search match and performs c on the whole match. After inserting text and pressing <Esc>, you can press . to perform the same edit on the next search match, etc.  
+`ciw` Change inner word  
+`gg` Go to the top of the file
+`G` Go to the end of the file
+`y` Yank (copy)  
+`p` Paste  
+`u` Undo
+`dd` Delete line
+`o` Insert line below
+`O` Insert line above
+`x` Delete character
+`r` Replace character
+
 ## Linux Mint-specific
 
 Type special characters
