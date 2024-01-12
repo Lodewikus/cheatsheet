@@ -200,11 +200,14 @@ curl -s https://install.zerotier.com | sudo bash
 sudo zerotier-cli join <network ID>
 ```
 
+network ID for HemispheresHub: d5e5fb6537ea0576  
+
 `zerotier-cli -`
-`sudo zerotier-cli listnetworks`
+`sudo zerotier-cli listnetworks`  
 `sudo zerotier-cli leave <network ID>` You can leave and join to disconnect & reconnect.
 
 ## VIM
+
 `cgn` Moves the cursor to the next search match and performs c on the whole match. After inserting text and pressing <Esc>, you can press . to perform the same edit on the next search match, etc.  
 `ciw` Change inner word  
 `gg` Go to the top of the file
