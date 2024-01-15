@@ -245,7 +245,5 @@ network ID for HemispheresHub: d5e5fb6537ea0576
 Type special characters
 
 ê: right-alt + e, then > (right bracket)  
-
 é: right-alt + e, then ' (single quote)  
-
 ë: right-alt + e, then " (double quote)
