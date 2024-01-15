@@ -28,8 +28,9 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 `nmap 192.168.0.0/24`  
 `sudo ufw status`  (Firewall status)  
 `sudo ufw allow 22/tcp` (allow Port 22)  
-`netstat -rn` (sudo apt install net-tools)  
-`nmcli dev show | grep 'IP4.DNS'` (sudo apt  install network-manager)  
+`netstat -rn` (sudo apt install net-tools)   
+`netstat -tulnp | grep 5000` (see what is using port 5000, for example)  
+`nmcli dev show | grep 'IP4.DNS'` (sudo apt  install network-manager)    
 
 ## Network settings for Ubuntu Server
 
@@ -42,7 +43,8 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 `sudo service ssh status` (same as above)  
 `sudo systemctl enable ssh --now` (enable ssh service)  
 `sudo systemctl restart ssh` (restart ssh service)  
-`sudo service inetd restart` (another way to restart a service)  
+`sudo service inetd restart` (another way to restart a service)   
+`sudo service --status-all`   
 
 ## Git
 
@@ -67,6 +69,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 `pwd` (print current directory)  
 `echo $PATH`  
 `history`  
+`lsof` (list open files and associated processes)  
 
 ## Search & Find
 
@@ -152,6 +155,11 @@ The reverse also works:
 # Backup images to Google Drive every night at midnight
 0 0 * * * rsync -a ~/Pictures/ ~/Google\ Drive/Pictures/
 ```
+## Execute a program periodically
+
+`watch cat filetxt` (run cat every 2 seconds - the default)  
+`watch -n 60 cat filetxt` (run cat every 60 seconds)  
+`watch -d cat filetxt` (highlight differences as they appear)
 
 ## Update, install
 
@@ -165,6 +173,17 @@ The reverse also works:
 `sudo reboot`  
 `sudo shutdown -h now`  
 `exit`  
+
+## System information
+
+`uname -a`  (System information)  
+`sudo lshw -class disk -class storage -short` (List hardware - all storage)  
+`sudo lshw -class network -short` (List hardware - networks, for example)
+`neofetch` (Summary of system information)     
+
+## Disks, media, volumes
+`df` (Display all file systems)  
+`df /home/` (Display details on where /home/ is stored)  
 
 ## CTRL-commands
 
