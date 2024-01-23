@@ -22,6 +22,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 ## Network utils
 
 `curl`  
+`curl https://ipinfo.io/ip` (get external IP address)
 `ifconfig`  
 `ip a`  
 `ip route | grep default` (to get default gateway)  
@@ -155,6 +156,7 @@ The reverse also works:
 # Backup images to Google Drive every night at midnight
 0 0 * * * rsync -a ~/Pictures/ ~/Google\ Drive/Pictures/
 ```
+
 ## Execute a program periodically
 
 `watch cat filetxt` (run cat every 2 seconds - the default)  
@@ -182,6 +184,7 @@ The reverse also works:
 `neofetch` (Summary of system information)     
 
 ## Disks, media, volumes
+
 `df` (Display all file systems)  
 `df /home/` (Display details on where /home/ is stored)  
 
