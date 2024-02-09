@@ -32,6 +32,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 `netstat -rn` (sudo apt install net-tools)   
 `netstat -tulnp | grep 5000` (see what is using port 5000, for example)  
 `nmcli dev show | grep 'IP4.DNS'` (sudo apt  install network-manager)    
+`arp -a | grep dc:a6:32:77:44:38`  (find the IP address when the MAC address is known)  
 
 ## Network settings for Ubuntu Server
 
