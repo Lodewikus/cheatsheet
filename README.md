@@ -50,6 +50,14 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 
 ## Git
 
+If Git is not installed
+
+```
+sudo apt install git -y
+git config --global user.email "wikus@olivierfamilie.org"
+git config --global user.name "Wikus Olivier"
+```
+
 `git add .`  
 `git commit -m "Commit message"`  
 `git push`  
