@@ -23,6 +23,7 @@ Git repo: https://github.com/Lodewikus/cheatsheet.git
 
 `curl`  
 `curl https://ipinfo.io/ip` (get external IP address)
+`curl -O https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-armhf.tgz`  (download file)  
 `ifconfig`  
 `ip a`  
 `ip route | grep default` (to get default gateway)  
@@ -80,6 +81,9 @@ git config --global user.name "Wikus Olivier"
 `echo $PATH`  
 `history`  
 `lsof` (list open files and associated processes)  
+
+## Unzip
+`tar -xvzf filename` (unzip)  
 
 ## Search & Find
 
