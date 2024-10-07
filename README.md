@@ -254,7 +254,8 @@ network ID for HemispheresHub: d5e5fb6537ea0576
 `o` Insert line below
 `O` Insert line above
 `x` Delete character
-`r` Replace character
+`r` Replace character  
+`"+y` Yank selected text to the clipboard  
 
 ## Linux Mint-specific
 
