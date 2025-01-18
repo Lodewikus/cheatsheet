@@ -83,6 +83,7 @@ git config --global user.name "Wikus Olivier"
 `lsof` (list open files and associated processes)  
 
 ## Unzip
+
 `tar -xvzf filename` (unzip)  
 
 ## Search & Find
@@ -235,19 +236,19 @@ curl -s https://install.zerotier.com | sudo bash
 sudo zerotier-cli join <network ID>
 ```
 
-Remove Zeroties
-```
-apt remove zerotier-one
-dpkg -P zerotier-one
-```
-
-https://discuss.zerotier.com/t/uninstall-from-linux-after-using-the-recommended-command/8986
-
 network ID for HemispheresHub: d5e5fb6537ea0576  
 
 `zerotier-cli -`
 `sudo zerotier-cli listnetworks`  
 `sudo zerotier-cli leave <network ID>` You can leave and join to disconnect & reconnect.
+
+
+
+Uninstall:  
+`apt remove zerotier-one`
+
+If you want to blow away the config it created:  
+`dpkg -P zerotier-one`
 
 ## VIM
 
