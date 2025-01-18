@@ -125,7 +125,7 @@ Omitting the trailing slash from the source means it copies the entire folder
 The reverse also works:  
 `rsync zaP wikus@10.0.0.20:~/code/my_project/new_folder ~/code/my_project/`  
 
-## editors
+## Editors
 
 `vim`  
 `nano`  
