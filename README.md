@@ -235,6 +235,14 @@ curl -s https://install.zerotier.com | sudo bash
 sudo zerotier-cli join <network ID>
 ```
 
+Remove Zeroties
+```
+apt remove zerotier-one
+dpkg -P zerotier-one
+```
+
+https://discuss.zerotier.com/t/uninstall-from-linux-after-using-the-recommended-command/8986
+
 network ID for HemispheresHub: d5e5fb6537ea0576  
 
 `zerotier-cli -`
