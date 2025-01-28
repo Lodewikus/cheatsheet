@@ -212,6 +212,10 @@ The reverse also works:
 
 `alias vim="nvim"` (create an alias for neovim)  
 
+Or
+
+`echo 'alias ll="ls -l"' >> ~/.bashrc`
+
 To create a bash alias that can take a parameter, you can define a shell function in your .bashrc file.
 
 ```
